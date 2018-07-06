@@ -1,0 +1,2463 @@
+[
+  {
+    "id": "SECURITY-208",
+    "type": "plugin",
+    "name": "google-login",
+    "message": "Authentication bypass vulnerability",
+    "url": "https://jenkins.io/security/advisory/2015-10-12/",
+    "versions": [
+      {
+        "lastVersion": "1.1",
+        "pattern": "1[.][01](|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-136",
+    "type": "plugin",
+    "name": "extra-columns",
+    "message": "Stored XSS vulnerability",
+    "url": "https://jenkins.io/security/advisory/2016-04-11/",
+    "versions": [
+      {
+        "lastVersion": "1.16",
+        "pattern": "1[.](\\d|1[0123456])(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-258",
+    "type": "plugin",
+    "name": "script-security",
+    "message": "Groovy sandbox protection incomplete",
+    "url": "https://jenkins.io/security/advisory/2016-04-11/",
+    "versions": [
+      {
+        "lastVersion": "1.18",
+        "pattern": "1[.](\\d|1[012345678])(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-85",
+    "type": "plugin",
+    "name": "tap",
+    "message": "Path traversal vulnerability",
+    "url": "https://jenkins.io/security/advisory/2016-06-20/",
+    "versions": [
+      {
+        "lastVersion": "1.24",
+        "pattern": "1[.](\\d|1\\d|2[01234])(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-278",
+    "type": "plugin",
+    "name": "image-gallery",
+    "message": "Path traversal vulnerability",
+    "url": "https://jenkins.io/security/advisory/2016-06-20/",
+    "versions": [
+      {
+        "lastVersion": "1.3",
+        "pattern": "(0[.].*|1[.][0123])(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-290",
+    "type": "plugin",
+    "name": "build-failure-analyzer",
+    "message": "Cross-site scripting vulnerability",
+    "url": "https://jenkins.io/security/advisory/2016-06-20/",
+    "versions": [
+      {
+        "lastVersion": "1.15.0",
+        "pattern": "1[.](\\d|1[012345])[.]\\d+(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-305",
+    "type": "plugin",
+    "name": "async-http-client",
+    "message": "Improper certificate validation",
+    "url": "https://jenkins.io/security/advisory/2016-06-20/",
+    "versions": [
+      {
+        "lastVersion": "1.7.24",
+        "pattern": "1[.]7[.](\\d(|[.-].*)|24)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-309",
+    "type": "plugin",
+    "name": "cucumber-reports",
+    "message": "Plugin disables Content-Security-Policy for files served by Jenkins",
+    "url": "https://jenkins.io/security/advisory/2016-07-27/",
+    "versions": [
+      {
+        "firstVersion": "1.3.0",
+        "lastVersion": "2.5.1",
+        "pattern": "(1[.][34]|2[.][012345])(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "core-2_44",
+    "type": "core",
+    "name": "core",
+    "message": "Multiple security vulnerabilities in Jenkins 2.43 and earlier, and LTS 2.32.1 and earlier",
+    "url": "https://jenkins.io/security/advisory/2017-02-01/",
+    "versions": [
+      {
+        "lastVersion": "2.43",
+        "pattern": "(1[.].*|2[.]\\d|2[.][123]\\d|2[.]4[0123])(|[-].*)"
+      }
+    ]
+  },
+
+  {
+    "id": "SECURITY-441",
+    "type": "plugin",
+    "name": "pipeline-maven",
+    "message": "Arbitrary files from Jenkins master available in Pipeline by using the withMaven step",
+    "url": "https://jenkins.io/security/advisory/2017-03-09/",
+    "versions": [
+      {
+        "lastVersion": "0.6",
+        "pattern": "0[.][123456](|[.-].*)"
+      },
+      {
+        "lastVersion": "2.0-beta-5",
+        "pattern": "2[.]0[-]beta[-][345](|[.-].*)"
+      }
+    ]
+  },
+
+  {
+    "id": "SECURITY-161",
+    "type": "plugin",
+    "name": "ssh-slaves",
+    "message": "Man-in-the-middle vulnerability due to missing host key verification",
+    "url": "https://jenkins.io/security/advisory/2017-03-20/",
+    "versions": [
+      {
+        "lastVersion": "1.14",
+        "pattern": "0[.].*|1[.][0-9](|[.-].*)|1[.]1[01234](|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-251",
+    "type": "plugin",
+    "name": "active-directory",
+    "message": "Man-in-the-middle vulnerability due to missing certificate check",
+    "url": "https://jenkins.io/security/advisory/2017-03-20/",
+    "versions": [
+      {
+        "lastVersion": "2.2",
+        "pattern": "1[.].*|2[.][012](|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-336",
+    "type": "plugin",
+    "name": "pipeline-classpath",
+    "message": "Script Security sandbox bypass",
+    "url": "https://jenkins.io/security/advisory/2017-03-20/",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-372-mailer",
+    "type": "plugin",
+    "name": "mailer",
+    "message": "Email notifications could be sent to people who are not users of Jenkins",
+    "url": "https://jenkins.io/security/advisory/2017-03-20/",
+    "versions": [
+      {
+        "lastVersion": "1.19",
+        "pattern": "1[.]([0-9]|1[0-9])(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-372-email-ext",
+    "type": "plugin",
+    "name": "email-ext",
+    "message": "Email notifications could be sent to people who are not users of Jenkins",
+    "url": "https://jenkins.io/security/advisory/2017-03-20/",
+    "versions": [
+      {
+        "lastVersion": "2.57",
+        "pattern": "2[.]([0-9]|[1234][0-9]|5[0123456])(|[.-].*)|2.57(|[-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-386",
+    "type": "plugin",
+    "name": "distfork",
+    "message": "Missing permission checks allowed shell access to anonymous users",
+    "url": "https://jenkins.io/security/advisory/2017-03-20/",
+    "versions": [
+      {
+        "lastVersion": "1.5.0",
+        "pattern": "1[.][012345](|[.-].*)"
+      }
+    ]
+  },
+
+
+  {
+    "id": "SECURITY-187",
+    "type": "plugin",
+    "name": "extended-choice-parameter",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "lastVersion": "0.61",
+        "pattern": "0[.]([12345]|[12345][0-9]|61)(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "JENKINS-15212",
+    "type": "plugin",
+    "name": "groovy-postbuild",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "lastVersion": "1.10",
+        "pattern": "1[.].*"
+      }
+    ]
+  },
+  {
+    "id": "JENKINS-28732",
+    "type": "plugin",
+    "name": "uno-choice",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "lastVersion": "1.4",
+        "pattern": "1[.][01234](|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "JENKINS-27535",
+    "type": "plugin",
+    "name": "groovy-label-assignment",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "lastVersion": "1.1.1",
+        "pattern": "1[.][01](|[.-].*)"
+      }
+    ]
+  },
+
+  {
+    "id": "SECURITY-123",
+    "type": "plugin",
+    "name": "extensible-choice-parameter",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "lastVersion": "1.3.4",
+        "pattern": "1[.][0123](|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-176",
+    "type": "plugin",
+    "name": "integrity-plugin",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "lastVersion": "2.0.2",
+        "pattern": "1[.].*|2[.](0)[.].*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-256",
+    "type": "plugin",
+    "name": "envinject",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "lastVersion": "1.93.1",
+        "pattern": "[01][.].*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-257",
+    "type": "plugin",
+    "name": "email-ext",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "lastVersion": "2.57.1",
+        "pattern": "2[.]([0-9]|[1234][0-9]|5[0123456])(|[.-].*)|2.57(|[-].*)|2.57.1(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-292",
+    "type": "plugin",
+    "name": "groovy",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "lastVersion": "1.31",
+        "pattern": "1[.].*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-293",
+    "type": "plugin",
+    "name": "build-flow-plugin",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-294",
+    "type": "plugin",
+    "name": "artifactdeployer",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "lastVersion": "0.33",
+        "pattern": "0[.].*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-295",
+    "type": "plugin",
+    "name": "postbuildscript",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+		{
+			"lastVersion": "0.17",
+			"pattern": "0[.]([0-9]|1[0-7])"
+		}
+    ]
+  },
+  {
+    "id": "SECURITY-296",
+    "type": "plugin",
+    "name": "claim",
+    "message": "Arbitrary code execution vulnerability in rare circumstances",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "lastVersion": "2.9",
+        "pattern": "1[.].*(|[.-].*)|2[.][0-9](|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-297",
+    "type": "plugin",
+    "name": "warnings",
+    "message": "Arbitrary code execution vulnerability in rare circumstances",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "lastVersion": "4.60",
+        "pattern": "[123][.].*|4[.]([0-9]|[12345][0-9]|60)(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-298",
+    "type": "plugin",
+    "name": "svn-tag",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-333",
+    "type": "plugin",
+    "name": "scriptler",
+    "message": "Persistent cross-site scripting vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-334",
+    "type": "plugin",
+    "name": "scriptler",
+    "message": "Cross-site request forgery vulnerabilities in Scriptler script management",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-348",
+    "type": "plugin",
+    "name": "envinject",
+    "message": "Low privilege users are able to read parts of some files on master",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "lastVersion": "1.93.1",
+        "pattern": "[01][.].*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-363",
+    "type": "plugin",
+    "name": "job-dsl",
+    "message": "Permission check bypass for access and modification of Jenkins model objects",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "lastVersion": "1.59",
+        "pattern": "1[.][0-9](|[.-].*)|1[.][12345][0-9](|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-365",
+    "type": "plugin",
+    "name": "scriptler",
+    "message": "Any user can add Scriptler scripts to build configurations",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-366",
+    "type": "plugin",
+    "name": "scriptler",
+    "message": "Any Scriptler script can be executed as part of builds",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-367",
+    "type": "plugin",
+    "name": "scriptler",
+    "message": "Arbitrary code execution vulnerability in rare circumstances",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-368",
+    "type": "plugin",
+    "name": "lockable-resources",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "lastVersion": "1.11.2",
+        "pattern": "1[.].*(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-369",
+    "type": "plugin",
+    "name": "job-dsl",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "lastVersion": "1.59",
+        "pattern": "1[.][0-9](|[.-].*)|1[.][12345][0-9](|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-379",
+    "type": "plugin",
+    "name": "tcl",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-405",
+    "type": "plugin",
+    "name": "warnings",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "lastVersion": "4.60",
+        "pattern": "[123][.].*|4[.]([0-9]|[12345][0-9]|60)(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-410-matrix-auth",
+    "type": "plugin",
+    "name": "matrix-auth",
+    "message": "Dangerous permissions can be configured independently of Administer permission",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "lastVersion": "1.4",
+        "pattern": "1[.][01234](|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-410-role-strategy",
+    "type": "plugin",
+    "name": "role-strategy",
+    "message": "Dangerous permissions can be configured independently of Administer permission",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "lastVersion": "2.3.2",
+        "pattern": "1[.].*|2[.][0123](|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-456",
+    "type": "plugin",
+    "name": "scripttrigger",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-457",
+    "type": "plugin",
+    "name": "AdaptivePlugin",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-458",
+    "type": "plugin",
+    "name": "grails",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-459",
+    "type": "plugin",
+    "name": "cvs-tag",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-460",
+    "type": "plugin",
+    "name": "groovyaxis",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-461",
+    "type": "plugin",
+    "name": "script-scm",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-462",
+    "type": "plugin",
+    "name": "dynamicparameter",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-464",
+    "type": "plugin",
+    "name": "youtrack-plugin",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "lastVersion": "0.6.6",
+        "pattern": "0[.][0123456][.]\\d+(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-479",
+    "type": "plugin",
+    "name": "splunk-devops",
+    "message": "Arbitrary code execution vulnerability in rare circumstances",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "lastVersion": "1.5.2",
+        "pattern": "1[.]([01234]|5[.][012])(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-487",
+    "type": "plugin",
+    "name": "reactor-plugin",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-488",
+    "type": "plugin",
+    "name": "cas-plugin",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "lastVersion": "1.3.0",
+        "pattern": "1[.][0123][.]\\d+(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-489",
+    "type": "plugin",
+    "name": "proc-cleaner-plugin",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "lastVersion": "1.6",
+        "pattern": "1[.].*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-491",
+    "type": "plugin",
+    "name": "cas1",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-492",
+    "type": "plugin",
+    "name": "extreme-notification",
+    "message": "Arbitrary code execution vulnerability in rare circumstances",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-493",
+    "type": "plugin",
+    "name": "shared-objects",
+    "message": "Arbitrary code execution vulnerability in rare circumstances",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-494",
+    "type": "plugin",
+    "name": "app-detector",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "lastVersion": "1.0.1",
+        "pattern": "1[.]0[.][01](|[-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-494-v2",
+    "type": "plugin",
+    "name": "app-detector",
+    "message": "Arbitrary code execution vulnerability in rare circumstances",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-495",
+    "type": "plugin",
+    "name": "ontrack",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "lastVersion": "2.30.5",
+        "pattern": "2\\.([0-2]\\d?|30)\\..*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-496",
+    "type": "plugin",
+    "name": "splunk-devops-extend",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-04-10/",
+    "versions": [
+      {
+        "lastVersion": "1.4.3",
+        "pattern": "1[.][01234](|[.-].*)"
+      }
+    ]
+  },
+
+  {
+    "id": "core-2_57",
+    "type": "core",
+    "name": "core",
+    "message": "Multiple security vulnerabilities in Jenkins 2.56 and earlier, and LTS 2.46.1 and earlier",
+    "url": "https://jenkins.io/security/advisory/2017-04-26/",
+    "versions": [
+      {
+        "lastVersion": "2.56",
+        "pattern": "(1[.].*|2[.]\\d|2[.][1234]\\d|2[.]5[0123456])(|[-].*)"
+      },
+      {
+        "lastVersion": "2.46.1",
+        "pattern": "(2[.]32[.].+|2[.]46[.]1)(|[-].*)"
+      }
+    ]
+  },
+
+  {
+    "id": "SECURITY-445",
+    "type": "plugin",
+    "name": "git-client",
+    "message": "Creation of temporary file with insecure permissions",
+    "url": "https://jenkins.io/security/advisory/2017-04-27/",
+    "versions": [
+      {
+        "lastVersion": "2.4.2",
+        "pattern": "1[.].*|2[.]([0123][.].*|4[.][012])(|[-].*)"
+      }
+    ]
+  },
+
+  {
+    "id": "JENKINS-44643",
+    "type": "plugin",
+    "name": "favorite",
+    "message": "Missing permission check allows anyone to change favorites for any other user",
+    "url": "https://jenkins.io/security/advisory/2017-06-06/",
+    "versions": [
+      {
+        "lastVersion": "2.1.0",
+        "pattern": "1[.].*|2[.]([01])(|[.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-532",
+    "type": "plugin",
+    "name": "favorite",
+    "message": "CSRF vulnerability allows changing another user's favorites",
+    "url": "https://jenkins.io/security/advisory/2017-06-06/",
+    "versions": [
+      {
+        "lastVersion": "2.2.0",
+        "pattern": "1[.].*|2[.]([012])(|[.].*)"
+      }
+    ]
+  },
+
+  {
+    "id": "SECURITY-201",
+    "type": "plugin",
+    "name": "parameterized-trigger",
+    "message": "Missing permission check allows building all jobs",
+    "url": "https://jenkins.io/security/advisory/2017-07-10/",
+    "versions": [
+      {
+        "lastVersion": "2.34",
+        "pattern": "(1[.].*|2[.][0-9]|2[.][12][0-9]|2[.]3[01234])(|[-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-303",
+    "type": "plugin",
+    "name": "subversion",
+    "message": "CSRF vulnerability and insufficient permission checks allow capturing credentials",
+    "url": "https://jenkins.io/security/advisory/2017-07-10/",
+    "versions": [
+      {
+        "lastVersion": "2.8",
+        "pattern": "(1[.].*|2[.][012345678])(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-335",
+    "type": "plugin",
+    "name": "periodicbackup",
+    "message": "Missing permission checks and CSRF vulnerability in Periodic Backup Plugin",
+    "url": "https://jenkins.io/security/advisory/2017-07-10/",
+    "versions": [
+      {
+        "lastVersion": "1.4",
+        "pattern": "1[.][01234](|[-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-342",
+    "type": "plugin",
+    "name": "github-branch-source",
+    "message": "Users with Overall/Read access can enumerate credential IDs",
+    "url": "https://jenkins.io/security/advisory/2017-07-10/",
+    "versions": [
+      {
+        "lastVersion": "2.0.7",
+        "pattern": "(1[.].*|2[.]0[.][0-7])(|[-].*)"
+      },
+      {
+        "lastVersion": "2.2.0-beta-1",
+        "pattern": "2[.]2[.]0[-](alpha[-].*|beta[-]1)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-352",
+    "type": "plugin",
+    "name": "sidebar-link",
+    "message": "Persisted XSS Vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-07-10/",
+    "versions": [
+      {
+        "lastVersion": "1.8",
+        "pattern": "1[.][0-8](|[-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-433",
+    "type": "plugin",
+    "name": "pipeline-build-step",
+    "message": "Missing permission check allows building all jobs",
+    "url": "https://jenkins.io/security/advisory/2017-07-10/",
+    "versions": [
+      {
+        "lastVersion": "2.5",
+        "pattern": "(2[.][0-4]|2[.]5)(|[-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-516",
+    "type": "plugin",
+    "name": "role-strategy",
+    "message": "CSRF vulnerability in security configuration",
+    "url": "https://jenkins.io/security/advisory/2017-07-10/",
+    "versions": [
+      {
+        "lastVersion": "2.5.0",
+        "pattern": "(1[.].*|2[.][01234][.].*|2[.]5[.]0)(|[-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-527",
+    "type": "plugin",
+    "name": "github-branch-source",
+    "message": "CSRF vulnerability and insufficient permission checks allow capturing credentials",
+    "url": "https://jenkins.io/security/advisory/2017-07-10/",
+    "versions": [
+      {
+        "lastVersion": "2.0.7",
+        "pattern": "(1[.].*|2[.]0[.][0-7])(|[.].*)"
+      },
+      {
+        "lastVersion": "2.2.0-beta-1",
+        "pattern": "2[.]2[.]0[-](alpha[-].*|beta[-]1)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-528",
+    "type": "plugin",
+    "name": "git",
+    "message": "CSRF vulnerability in Git plugin allows capturing credentials",
+    "url": "https://jenkins.io/security/advisory/2017-07-10/",
+    "versions": [
+      {
+        "lastVersion": "3.3.1",
+        "pattern": "([012][.].*|3[.][012]|3[.]3[.][01])(|[-.].*)"
+      },
+      {
+        "lastVersion": "3.4.0-beta-1",
+        "pattern": "3[.]4[.]0[-](alpha.*|beta[-]1)(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-529",
+    "type": "plugin",
+    "name": "pollscm",
+    "message": "CSRF vulnerability allows polling",
+    "url": "https://jenkins.io/security/advisory/2017-07-10/",
+    "versions": [
+      {
+        "lastVersion": "1.3",
+        "pattern": "1[.][0123](|[-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-533",
+    "type": "plugin",
+    "name": "docker-commons",
+    "message": "Users with Overall/Read access can enumerate credential IDs",
+    "url": "https://jenkins.io/security/advisory/2017-07-10/",
+    "versions": [
+      {
+        "lastVersion": "1.7",
+        "pattern": "1[.][0-7](|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-538",
+    "type": "plugin",
+    "name": "script-security",
+    "message": "Unsafe entries in default whitelist",
+    "url": "https://jenkins.io/security/advisory/2017-07-10/",
+    "versions": [
+      {
+        "lastVersion": "1.29",
+        "pattern": "(1[.][0-9]|1[.]1[0-9]|1[.]2[0-8])(|[.-].*)|1[.]29(|[-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-551",
+    "type": "plugin",
+    "name": "workflow-cps",
+    "message": "Arbitrary code execution due to incomplete sandbox protection",
+    "url": "https://jenkins.io/security/advisory/2017-07-10/",
+    "versions": [
+      {
+        "lastVersion": "2.36",
+        "pattern": "(1[.].*|2[.][0-9]|2[.][12][0-9]|2[.]3[0-6])(|[-].*)"
+      }
+    ]
+  },
+  {
+    "id": "JENKINS-21436",
+    "type": "plugin",
+    "name": "ssh",
+    "message": "Credentials are stored in unencrypted configuration files",
+    "url": "https://jenkins.io/security/advisory/2017-07-10/",
+    "versions": [
+      {
+        "lastVersion": "2.4",
+        "pattern": "(1[.].*|2[.][01234])(|[.].*)"
+      }
+    ]
+  },
+
+  {
+    "id": "SECURITY-467-analysis-core",
+    "type": "plugin",
+    "name": "analysis-core",
+    "message": "Persisted cross-site scripting vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-08-07/",
+    "versions": [
+      {
+        "lastVersion": "1.91",
+        "pattern": "(1[.][0-9]|1[.][0-8][0-9]|1[.]9[01])(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-467-dry",
+    "type": "plugin",
+    "name": "dry",
+    "message": "Persisted cross-site scripting vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-08-07/",
+    "versions": [
+      {
+        "lastVersion": "2.48",
+        "pattern": "(1|2[.][0-9]|2[.][0-3][0-9]|2[.]4[0-8])(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-513",
+    "type": "plugin",
+    "name": "config-file-provider",
+    "message": "Users with Overall/Read access could access configuration files",
+    "url": "https://jenkins.io/security/advisory/2017-08-07/",
+    "versions": [
+      {
+        "lastVersion": "2.16.1",
+        "pattern": "(1|2[.][0-9]|2[.]1[0-5]|2[.]16[.][01])(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-559",
+    "type": "plugin",
+    "name": "deploy",
+    "message": "Insecure credential storage",
+    "url": "https://jenkins.io/security/advisory/2017-08-07/",
+    "versions": [
+      {
+        "lastVersion": "1.12",
+        "pattern": "(1[.][0-9]|1[.]1[012])(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-564",
+    "type": "plugin",
+    "name": "blueocean-rest-impl",
+    "message": "Artifacts were made available to users lacking the proper permission",
+    "url": "https://jenkins.io/security/advisory/2017-08-07/",
+    "versions": [
+      {
+        "lastVersion": "1.1.5",
+        "pattern": "(1[.]0[.].*|1[.]1[.][012345])"
+      },
+      {
+        "lastVersion": "1.2.0-beta-3",
+        "pattern": "1[.]2[.]0[-]beta[-][123]"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-565",
+    "type": "plugin",
+    "name": "blueocean-github-pipeline",
+    "message": "Unauthorized users could read and write GitHub repository data via SCM content API",
+    "url": "https://jenkins.io/security/advisory/2017-08-07/",
+    "versions": [
+      {
+        "lastVersion": "1.1.5",
+        "pattern": "(1[.]0[.].*|1[.]1[.][012345])"
+      },
+      {
+        "lastVersion": "1.2.0-beta-3",
+        "pattern": "1[.]2[.]0[-]beta[-][123]"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-565-beta",
+    "type": "plugin",
+    "name": "blueocean-bitbucket-pipeline",
+    "message": "Unauthorized users could read and write Bitbucket repository data via SCM content API",
+    "url": "https://jenkins.io/security/advisory/2017-08-07/",
+    "versions": [
+      {
+        "lastVersion": "1.2.0-beta-3",
+        "pattern": "1[.]2[.]0[-]beta[-]3"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-566-567-580-582",
+    "type": "plugin",
+    "name": "script-security",
+    "message": "Multiple sandbox bypasses",
+    "url": "https://jenkins.io/security/advisory/2017-08-07/",
+    "versions": [
+      {
+        "lastVersion": "1.30",
+        "pattern": "(1[.][0-9]|1[.][12][0-9]|1[.]30)(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-576",
+    "type": "plugin",
+    "name": "pipeline-input-step",
+    "message": "Users with read access could interact with input step by default",
+    "url": "https://jenkins.io/security/advisory/2017-08-07/",
+    "versions": [
+      {
+        "lastVersion": "2.7",
+        "pattern": "(2[.][0-7])(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-577",
+    "type": "plugin",
+    "name": "dependency-check-jenkins-plugin",
+    "message": "Persisted cross-site scripting vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-08-07/",
+    "versions": [
+      {
+        "lastVersion": "2.0.1.1",
+        "pattern": "(?!2.0.1.2)(1|2[.]0)(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-579",
+    "type": "plugin",
+    "name": "datadog",
+    "message": "API key gets transmitted in unencrypted form",
+    "url": "https://jenkins.io/security/advisory/2017-08-07/",
+    "versions": [
+      {
+        "lastVersion": "0.5.6",
+        "pattern": "(0[.][1234]|0[.]5[.][0123456])(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-587",
+    "type": "plugin",
+    "name": "blueocean-github-pipeline",
+    "message": "Users with read access to a pipeline could obtain its associated GitHub access token",
+    "url": "https://jenkins.io/security/advisory/2017-08-07/",
+    "versions": [
+      {
+        "lastVersion": "1.1.5",
+        "pattern": "(1[.]0[.].*|1[.]1[.][012345])"
+      },
+      {
+        "lastVersion": "1.2.0-beta-3",
+        "pattern": "1[.]2[.]0[-]beta[-][123]"
+      }
+    ]
+  },
+
+  {
+    "id": "JENKINS-46007",
+    "type": "plugin",
+    "name": "saml",
+    "message": "Keystore and private key passwords stored unencrypted",
+    "url": "https://jenkins.io/security/advisory/2017-08-08/",
+    "versions": [
+      {
+        "lastVersion": "1.0.2",
+        "pattern": "(0|1[.]0[.][12])(|[.-].*)"
+      }
+    ]
+  },
+
+  {
+    "id": "core-2_84",
+    "type": "core",
+    "name": "core",
+    "message": "Multiple security vulnerabilities in Jenkins 2.83 and earlier, and LTS 2.73.1 and earlier",
+    "url": "https://jenkins.io/security/advisory/2017-10-11/",
+    "versions": [
+      {
+        "lastVersion": "2.83",
+        "pattern": "(1[.].*|2[.]\\d|2[.][1234567]\\d|2[.]8[0123])(|[-].*)"
+      },
+      {
+        "lastVersion": "2.73.1",
+        "pattern": "(2[.](32|46|60)[.].+|2[.]73[.]1)(|[-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-577",
+    "type": "plugin",
+    "name": "maven-plugin",
+    "message": "Maven plugin bundles commons-httpclient library vulnerable to man-in-the-middle attacks",
+    "url": "https://jenkins.io/security/advisory/2017-10-11/",
+    "versions": [
+      {
+        "lastVersion": "2.17",
+        "pattern": "([12][.].+)(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-597",
+    "type": "plugin",
+    "name": "swarm",
+    "message": "Swarm Plugin client bundles commons-httpclient library vulnerable to man-in-the-middle attacks",
+    "url": "https://jenkins.io/security/advisory/2017-10-11/",
+    "versions": [
+      {
+        "pattern": "([12][.].+|3[.][34])(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-623",
+    "type": "plugin",
+    "name": "speaks",
+    "message": "Arbitrary code execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-10-11/",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+
+  {
+    "id": "SECURITY-50",
+    "type": "plugin",
+    "name": "global-build-stats",
+    "message": "CSRF and XSS vulnerabilities",
+    "url": "https://jenkins.io/security/advisory/2017-10-23/",
+    "versions": [
+      {
+        "lastVersion": "1.4",
+        "pattern": "0[.].*|1[.][01234](|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-57",
+    "type": "plugin",
+    "name": "depgraph-view",
+    "message": "Missing permission checks",
+    "url": "https://jenkins.io/security/advisory/2017-10-23/",
+    "versions": [
+      {
+        "lastVersion": "0.12",
+        "pattern": "0[.]([1-9]|1[012])(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-374",
+    "type": "plugin",
+    "name": "scp",
+    "message": "Insecure credential storage and transmission",
+    "url": "https://jenkins.io/security/advisory/2017-10-23/",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-378",
+    "type": "plugin",
+    "name": "build-publisher",
+    "message": "Insecure credential storage and transmission",
+    "url": "https://jenkins.io/security/advisory/2017-10-23/",
+    "versions": [
+      {
+        "lastVersion": "1.21",
+        "pattern": "(1[.][0-9]|1[.]1[0-9]|1[.]2[01])(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-470",
+    "type": "plugin",
+    "name": "uno-choice",
+    "message": "Stored cross-site scripting vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-10-23/",
+    "versions": [
+      {
+        "lastVersion": "1.5.3",
+        "pattern": "1[.].*"
+      }
+    ]
+  },
+  {
+    "id": "JENKINS-36333",
+    "type": "plugin",
+    "name": "jenkins-multijob-plugin",
+    "message": "Missing permission check for Resume Build feature",
+    "url": "https://jenkins.io/security/advisory/2017-10-23/",
+    "versions": [
+      {
+        "lastVersion": "1.26",
+        "pattern": "1[.]([0-9]|1[0-9]|2[0-6])(|[.-].*)"
+      }
+    ]
+  },
+
+  {
+    "id": "core-2_89",
+    "type": "core",
+    "name": "core",
+    "message": "Multiple security vulnerabilities in Jenkins 2.88 and earlier, and LTS 2.73.2 and earlier",
+    "url": "https://jenkins.io/security/advisory/2017-11-08/",
+    "versions": [
+      {
+        "lastVersion": "2.88",
+        "pattern": "(1[.].*|2[.]\\d|2[.][1234567]\\d|2[.]8[012345678])(|[-].*)"
+      },
+      {
+        "lastVersion": "2.73.2",
+        "pattern": "(2[.](32|46|60)[.].+|2[.]73[.][12])(|[-].*)"
+      }
+    ]
+  },
+
+  {
+    "id": "SECURITY-640",
+    "type": "plugin",
+    "name": "delivery-pipeline-plugin",
+    "message": "Reflected cross-site scripting vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-11-16/",
+    "versions": [
+      {
+        "lastVersion": "1.0.7",
+        "pattern": "(0[.].*|1[.]0[.][0-7])(|[-].*)"
+      }
+    ]
+  },
+
+  {
+    "id": "SECURITY-643",
+    "type": "plugin",
+    "name": "ec2",
+    "message": "Arbitrary shell command execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-12-06/",
+    "versions": [
+      {
+        "lastVersion": "1.37",
+        "pattern": "(1[.]([0-9]|[12][0-9]|3[0-7]))(|[-].*)"
+      }
+    ]
+  },
+
+  {
+    "id": "SECURITY-663",
+    "type": "plugin",
+    "name": "script-security",
+    "message": "Arbitrary file read vulnerability",
+    "url": "https://jenkins.io/security/advisory/2017-12-11/",
+    "versions": [
+      {
+        "lastVersion": "1.36",
+        "pattern": "(1[.]([0-9]|[12][0-9]|3[0-6]))(|[.-].*)"
+      }
+    ]
+  },
+
+  {
+    "id": "core-2_95",
+    "type": "core",
+    "name": "core",
+    "message": "Multiple security vulnerabilities in Jenkins 2.94 and earlier, and LTS 2.89.1 and earlier",
+    "url": "https://jenkins.io/security/advisory/2017-12-14/",
+    "versions": [
+      {
+        "lastVersion": "2.94",
+        "pattern": "(1[.].*|2[.]\\d|2[.][1-8]\\d|2[.]9[0-4])(|[-].*)"
+      },
+      {
+        "lastVersion": "2.89.1",
+        "pattern": "(2[.](32|46|60|73)[.].+|2[.]89[.]1)(|[-].*)"
+      }
+    ]
+  },
+
+  {
+    "id": "SECURITY-507",
+    "type": "plugin",
+    "name": "translation",
+    "message": "Cross-site request forgery (CSRF) vulnerability",
+    "url": "https://jenkins.io/security/advisory/2018-01-22/",
+    "versions": [
+      {
+        "lastVersion": "1.15",
+        "pattern": "1[.]([0-9]|1[0-5])(|[-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-607",
+    "type": "plugin",
+    "name": "release",
+    "message": "Cross-site request forgery (CSRF) vulnerability",
+    "url": "https://jenkins.io/security/advisory/2018-01-22/",
+    "versions": [
+      {
+        "lastVersion": "2.9",
+        "pattern": "(1[.].*|2[.]([0-9]))(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-655",
+    "type": "plugin",
+    "name": "pmd",
+    "message": "XML External Entity (XXE) processing vulnerability",
+    "url": "https://jenkins.io/security/advisory/2018-01-22/",
+    "versions": [
+      {
+        "lastVersion": "3.49",
+        "pattern": "3[.][1-4][0-9](|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-656",
+    "type": "plugin",
+    "name": "checkstyle",
+    "message": "XML External Entity (XXE) processing vulnerability",
+    "url": "https://jenkins.io/security/advisory/2018-01-22/",
+    "versions": [
+      {
+        "lastVersion": "3.49",
+        "pattern": "3[.][1-4][0-9](|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-657",
+    "type": "plugin",
+    "name": "dry",
+    "message": "XML External Entity (XXE) processing vulnerability",
+    "url": "https://jenkins.io/security/advisory/2018-01-22/",
+    "versions": [
+      {
+        "lastVersion": "2.49",
+        "pattern": "2[.][1-4][0-9](|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-658",
+    "type": "plugin",
+    "name": "findbugs",
+    "message": "XML External Entity (XXE) processing vulnerability",
+    "url": "https://jenkins.io/security/advisory/2018-01-22/",
+    "versions": [
+      {
+        "lastVersion": "4.71",
+        "pattern": "4[.]([0-6][0-9]|7[01])(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-675",
+    "type": "plugin",
+    "name": "workflow-durable-task-step",
+    "message": "Incorrect permission checks allow executing builds on agents without Computer/Build permission",
+    "url": "https://jenkins.io/security/advisory/2018-01-22/",
+    "versions": [
+      {
+        "lastVersion": "2.17",
+        "pattern": "(1[.].*|2[.]([0-9]|1[0-7]))(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-694",
+    "type": "plugin",
+    "name": "ant",
+    "message": "Cross-site scripting (XSS) vulnerability",
+    "url": "https://jenkins.io/security/advisory/2018-01-22/",
+    "versions": [
+      {
+        "lastVersion": "1.7",
+        "pattern": "1[.][0-7](|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-695",
+    "type": "plugin",
+    "name": "warnings",
+    "message": "XML External Entity (XXE) processing vulnerability",
+    "url": "https://jenkins.io/security/advisory/2018-01-22/",
+    "versions": [
+      {
+        "lastVersion": "4.64",
+        "pattern": "(3[.].*|4[.]([0-9]|[1-5][0-9]|6[0-4]))(|[.-].*)"
+      }
+    ]
+  },
+
+  {
+    "id": "SECURITY-521",
+    "type": "plugin",
+    "name": "junit",
+    "message": "XML External Entity (XXE) processing vulnerability",
+    "url": "https://jenkins.io/security/advisory/2018-02-05/",
+    "versions": [
+      {
+        "lastVersion": "1.23",
+        "pattern": "(1[.]([0-9]|1[0-9]|2[0-3]))(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-659",
+    "type": "plugin",
+    "name": "ccm",
+    "message": "XML External Entity (XXE) processing vulnerability",
+    "url": "https://jenkins.io/security/advisory/2018-02-05/",
+    "versions": [
+      {
+        "lastVersion": "3.1",
+        "pattern": "([12]|3[.][01])(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-660",
+    "type": "plugin",
+    "name": "android-lint",
+    "message": "XML External Entity (XXE) processing vulnerability",
+    "url": "https://jenkins.io/security/advisory/2018-02-05/",
+    "versions": [
+      {
+        "lastVersion": "2.5",
+        "pattern": "(1|2[.][0-5])(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-698",
+    "type": "plugin",
+    "name": "credentials-binding",
+    "message": "Improper masking of secrets in rare circumstances",
+    "url": "https://jenkins.io/security/advisory/2018-02-05/",
+    "versions": [
+      {
+        "lastVersion": "1.14",
+        "pattern": "1[.]([0-9]|1[0-4])(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-699",
+    "type": "plugin",
+    "name": "workflow-support",
+    "message": "Arbitrary code execution due to incomplete sandbox protection",
+    "url": "https://jenkins.io/security/advisory/2018-02-05/",
+    "versions": [
+      {
+        "lastVersion": "2.17",
+        "pattern": "([1]|2[.]([0-9]|1[0-7]))(|[.-].*)"
+      }
+    ]
+  },
+
+  {
+    "id": "core-2_107",
+    "type": "core",
+    "name": "core",
+    "message": "Multiple security vulnerabilities in Jenkins 2.106 and earlier, and LTS 2.89.3 and earlier",
+    "url": "https://jenkins.io/security/advisory/2018-02-14/",
+    "versions": [
+      {
+        "lastVersion": "2.106",
+        "pattern": "(1[.].*|2[.][0-9]|2[.][0-9][0-9]|2[.]10[0-6])(|[-].*)"
+      },
+      {
+        "lastVersion": "2.89.3",
+        "pattern": "(2[.](32|46|60|73)[.].+|2[.]89[.][123])(|[-].*)"
+      }
+    ]
+  },
+
+  {
+    "id": "SECURITY-248",
+    "type": "plugin",
+    "name": "envinject",
+    "message": "Exposure of sensitive build variables stored by EnvInject 1.90 and earlier",
+    "url": "https://jenkins.io/security/advisory/2018-02-26/#SECURITY-248",
+    "versions": [
+      {
+        "pattern": "(Affected even if up to date|.*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-260",
+    "type": "plugin",
+    "name": "coverity",
+    "message": "Keystore and private key passwords stored in plain text",
+    "url": "https://jenkins.io/security/advisory/2018-02-26/#SECURITY-260",
+    "versions": [
+      {
+        "lastVersion": "1.10.0",
+        "pattern": "1[.]([0-9]|10[.]0)(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-402",
+    "type": "plugin",
+    "name": "gerrit-trigger",
+    "message": "Unauthorized access to some Gerrit Trigger server configuration",
+    "url": "https://jenkins.io/security/advisory/2018-02-26/#SECURITY-402",
+    "versions": [
+      {
+        "lastVersion": "2.27.4",
+        "pattern": "2[.]([0-9]|1[0-9]|2[0-6]|27[.][0-4])(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-403",
+    "type": "plugin",
+    "name": "gerrit-trigger",
+    "message": "Unauthorized users were able to change Gerrit Trigger server configuration",
+    "url": "https://jenkins.io/security/advisory/2018-02-26/#SECURITY-403",
+    "versions": [
+      {
+        "lastVersion": "2.27.4",
+        "pattern": "2[.]([0-9]|1[0-9]|2[0-6]|27[.][0-4])(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-498",
+    "type": "plugin",
+    "name": "ownership",
+    "message": "Users without ManageOwnership permissions able to change job and node ownership metadata",
+    "url": "https://jenkins.io/security/advisory/2018-02-26/#SECURITY-498",
+    "versions": [
+      {
+        "lastVersion": "0.11.0",
+        "pattern": "0[.]([0-9]|1[01])(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-554",
+    "type": "plugin",
+    "name": "azure-slave-plugin",
+    "message": "Bundled httpclient library vulnerable to DoS",
+    "url": "https://jenkins.io/security/advisory/2018-02-26/#SECURITY-554",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-712",
+    "type": "plugin",
+    "name": "cppncss",
+    "message": "Reflected cross-site-scripting vulnerability",
+    "url": "https://jenkins.io/security/advisory/2018-02-26/#SECURITY-712",
+    "versions": [
+      {
+        "lastVersion": "1.1",
+        "pattern": "1[.][01](|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-715",
+    "type": "plugin",
+    "name": "google-play-android-publisher",
+    "message": "Users with Overall/Read access can enumerate credential IDs",
+    "url": "https://jenkins.io/security/advisory/2018-02-26/#SECURITY-715",
+    "versions": [
+      {
+        "lastVersion": "1.6",
+        "pattern": "1[.][0-6](|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-723",
+    "type": "plugin",
+    "name": "git",
+    "message": "Users without Overall/Read are able to access lists of user names and node names",
+    "url": "https://jenkins.io/security/advisory/2018-02-26/#SECURITY-723",
+    "versions": [
+      {
+        "lastVersion": "3.7.0",
+        "pattern": "([012][.].*|3[.][0-7])(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-724",
+    "type": "plugin",
+    "name": "subversion",
+    "message": "Users without Overall/Read are able to access lists of user names and node names",
+    "url": "https://jenkins.io/security/advisory/2018-02-26/#SECURITY-724",
+    "versions": [
+      {
+        "lastVersion": "2.10.2",
+        "pattern": "((1|2[.][0-9]|2[.]10[.][12])(|[-.].*)|2[.]10)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-726",
+    "type": "plugin",
+    "name": "mercurial",
+    "message": "Users without Overall/Read are able to access lists of user names and node names",
+    "url": "https://jenkins.io/security/advisory/2018-02-26/#SECURITY-726",
+    "versions": [
+      {
+        "lastVersion": "2.2",
+        "pattern": "(1|2[.][0-2])(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-731",
+    "type": "plugin",
+    "name": "testlink",
+    "message": "Stored cross-site scripting vulnerability",
+    "url": "https://jenkins.io/security/advisory/2018-02-26/#SECURITY-731",
+    "versions": [
+      {
+        "lastVersion": "3.12",
+        "pattern": "([12]|3[.][0-9]|3[.]1[0-2])(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-746",
+    "type": "plugin",
+    "name": "promoted-builds",
+    "message": "Unauthorized users are able to run some promotion processes",
+    "url": "https://jenkins.io/security/advisory/2018-02-26/#SECURITY-746",
+    "versions": [
+      {
+        "lastVersion": "2.31.1",
+        "pattern": "([12])(|[-.].*)"
+      }
+    ]
+  },
+
+  {
+    "id": "SECURITY-261",
+    "type": "plugin",
+    "name": "ghprb",
+    "message": "GitHub access tokens stored in in build.xml",
+    "url": "https://jenkins.io/security/advisory/2018-03-26/#SECURITY-261",
+    "versions": [
+      {
+        "lastVersion": "1.40.0",
+        "pattern": "(Affected even if up to date|.*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-262",
+    "type": "plugin",
+    "name": "ghprb",
+    "message": "Webhook secret stored in plain text",
+    "url": "https://jenkins.io/security/advisory/2018-03-26/#SECURITY-262",
+    "versions": [
+      {
+        "lastVersion": "1.32.0",
+        "pattern": "1[.]([0-9]|[12][0-9]|3[01]|32[.]0)(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-308",
+    "type": "plugin",
+    "name": "cucumber-living-documentation",
+    "message": "Plugin disables Jenkins Cross-Site Scripting protection",
+    "url": "https://jenkins.io/security/advisory/2018-03-26/#SECURITY-308",
+    "versions": [
+      {
+        "lastVersion": "1.0.12",
+        "pattern": "1[.]0(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-373",
+    "type": "plugin",
+    "name": "perforce",
+    "message": "Ineffective credentials encryption",
+    "url": "https://jenkins.io/security/advisory/2018-03-26/#SECURITY-373",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-504",
+    "type": "plugin",
+    "name": "vsphere-cloud",
+    "message": "Plugin disables SSL/TLS certificate validation",
+    "url": "https://jenkins.io/security/advisory/2018-03-26/#SECURITY-504",
+    "versions": [
+      {
+        "pattern": "([01]|2[.]([0-9]|1[0-6]))(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-519",
+    "type": "plugin",
+    "name": "liquibase-runner",
+    "message": "Plugin allows users to load arbitrary Java code into master JVM",
+    "url": "https://jenkins.io/security/advisory/2018-03-26/#SECURITY-519",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-536",
+    "type": "plugin",
+    "name": "perforce",
+    "message": "Job-specific credentials can be obtained by users with Job/Extended Read permission",
+    "url": "https://jenkins.io/security/advisory/2018-03-26/#SECURITY-536",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-545",
+    "type": "plugin",
+    "name": "copy-to-slave",
+    "message": "Plugin allows access to arbitrary files on the Jenkins master file system",
+    "url": "https://jenkins.io/security/advisory/2018-03-26/#SECURITY-545",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-630",
+    "type": "plugin",
+    "name": "ansible",
+    "message": "Host key verification disabled by default",
+    "url": "https://jenkins.io/security/advisory/2018-03-26/#SECURITY-630",
+    "versions": [
+      {
+        "lastVersion": "0.8",
+        "pattern": "0(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-736",
+    "type": "plugin",
+    "name": "reverse-proxy-auth-plugin",
+    "message": "Authorities cache persisted on disk",
+    "url": "https://jenkins.io/security/advisory/2018-03-26/#SECURITY-736",
+    "versions": [
+      {
+        "lastVersion": "1.5",
+        "pattern": "1[.][0-5](|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-745",
+    "type": "plugin",
+    "name": "vsphere-cloud",
+    "message": "CSRF vulnerability and insufficient permission checks allow capturing credentials, vSphere denial of service",
+    "url": "https://jenkins.io/security/advisory/2018-03-26/#SECURITY-745",
+    "versions": [
+      {
+        "pattern": "([01]|2[.]([0-9]|1[0-6]))(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-774",
+    "type": "plugin",
+    "name": "mailer",
+    "message": "Unauthorized users able to send test emails",
+    "url": "https://jenkins.io/security/advisory/2018-03-26/#SECURITY-774",
+    "versions": [
+      {
+        "lastVersion": "1.20",
+        "pattern": "1[.]([0-9]|1[0-9]|20)(|[-.].*)"
+      }
+    ]
+  },
+
+  {
+    "id": "core-2_116",
+    "type": "core",
+    "name": "core",
+    "message": "Multiple security vulnerabilities in Jenkins 2.115 and earlier, and LTS 2.107.1 and earlier",
+    "url": "https://jenkins.io/security/advisory/2018-04-11/",
+    "versions": [
+      {
+        "lastVersion": "2.115",
+        "pattern": "(1[.].*|2[.][0-9]|2[.][0-9][0-9]|2[.]10[0-9]|2[.]11[0-5])(|[-].*)"
+      },
+      {
+        "lastVersion": "2.107.1",
+        "pattern": "(2[.][0-9]{1,2}[.].+|2[.]107[.]1)(|[-].*)"
+      }
+    ]
+  },
+
+  {
+    "id": "SECURITY-442",
+    "type": "plugin",
+    "name": "google-login",
+    "message": "Session fixation vulnerability",
+    "url": "https://jenkins.io/security/advisory/2018-04-16/#SECURITY-442",
+    "versions": [
+      {
+        "lastVersion": "1.3",
+        "pattern": "1[.][012](|[-.].*)|1.3"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-684",
+    "type": "plugin",
+    "name": "google-login",
+    "message": "Open redirect vulnerability",
+    "url": "https://jenkins.io/security/advisory/2018-04-16/#SECURITY-684",
+    "versions": [
+      {
+        "lastVersion": "1.3",
+        "pattern": "1[.][012](|[-.].*)|1.3"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-729",
+    "type": "plugin",
+    "name": "email-ext",
+    "message": "SMTP password gets transmitted in unencrypted form",
+    "url": "https://jenkins.io/security/advisory/2018-04-16/#SECURITY-729",
+    "versions": [
+      {
+        "lastVersion": "2.61",
+        "pattern": "2[.]([0-9]|[12345][0-9]|6[01])(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-730",
+    "type": "plugin",
+    "name": "s3",
+    "message": "Cross-site scripting vulnerability in artifact file names",
+    "url": "https://jenkins.io/security/advisory/2018-04-16/#SECURITY-730",
+    "versions": [
+      {
+        "lastVersion": "0.10.12",
+        "pattern": "0[.]([0-9]|10)(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-784",
+    "type": "plugin",
+    "name": "htmlpublisher",
+    "message": "Path traversal vulnerability allows arbitrary file writing",
+    "url": "https://jenkins.io/security/advisory/2018-04-16/#SECURITY-784",
+    "versions": [
+      {
+        "lastVersion": "1.15",
+        "pattern": "(0|1[.][0-9]|1[.]1[0-5])(|[-.].*)"
+      }
+    ]
+  },
+
+  {
+    "id": "core-2_121",
+    "type": "core",
+    "name": "core",
+    "message": "Multiple security vulnerabilities in Jenkins 2.120 and earlier, and LTS 2.107.2 and earlier",
+    "url": "https://jenkins.io/security/advisory/2018-05-09/",
+    "versions": [
+      {
+        "lastVersion": "2.120",
+        "pattern": "(1[.].*|2[.][0-9]|2[.][0-9][0-9]|2[.]1[01][0-9]|2[.]120)(|[-].*)"
+      },
+      {
+        "lastVersion": "2.107.2",
+        "pattern": "(2[.][0-9]{1,2}[.].+|2[.]107[.][12])(|[-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-263",
+    "type": "plugin",
+    "name": "gitlab-hook",
+    "message": "Gitlab API token stored and displayed in plain text",
+    "url": "https://jenkins.io/security/advisory/2018-05-09/#SECURITY-263",
+    "versions": [
+      {
+        "pattern": ".*"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-670",
+    "type": "plugin",
+    "name": "blackduck-hub",
+    "message": "Users with Overall/Read permission able to read and write plugin configuration",
+    "url": "https://jenkins.io/security/advisory/2018-05-09/#SECURITY-670",
+    "versions": [
+      {
+        "lastVersion": "3.0.3",
+        "pattern": "(2|3[.]0)(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-671",
+    "type": "plugin",
+    "name": "blackduck-hub",
+    "message": "XML External Entity processing vulnerability",
+    "url": "https://jenkins.io/security/advisory/2018-05-09/#SECURITY-671",
+    "versions": [
+      {
+        "lastVersion": "3.1.0",
+        "pattern": "([23])(|[.-].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-821",
+    "type": "plugin",
+    "name": "groovy-postbuild",
+    "message": "Persisted cross-site scripting vulnerability in build badges",
+    "url": "https://jenkins.io/security/advisory/2018-05-09/#SECURITY-821",
+    "versions": [
+      {
+        "lastVersion": "2.3.1",
+        "pattern": "(1|2[.][0123])(|[.-].*)"
+      }
+    ]
+  },
+
+  {
+    "id": "SECURITY-799",
+    "type": "plugin",
+    "name": "github",
+    "message": "Server-side request forgery",
+    "url": "https://jenkins.io/security/advisory/2018-06-04/#SECURITY-799",
+    "versions": [
+      {
+        "lastVersion": "1.29.0",
+        "pattern": "(0|1[.][0-9]|1[.]1[0-9]|1[.]2[0-8]|1[.]29[.]0)(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-804",
+    "type": "plugin",
+    "name": "github",
+    "message": "CSRF vulnerability and lack of permission checks allows capturing credentials",
+    "url": "https://jenkins.io/security/advisory/2018-06-04/#SECURITY-804",
+    "versions": [
+      {
+        "lastVersion": "1.29.0",
+        "pattern": "(0|1[.][0-9]|1[.]1[0-9]|1[.]2[0-8]|1[.]29[.]0)(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-805",
+    "type": "plugin",
+    "name": "ghprb",
+    "message": "CSRF vulnerability and lack of permission checks allows capturing credentials",
+    "url": "https://jenkins.io/security/advisory/2018-06-04/#SECURITY-805",
+    "versions": [
+      {
+        "lastVersion": "1.41.0",
+        "pattern": "(0|1[.][0-9]|1[.][123][0-9]|1[.]40|1[.]41[.]0)(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-806",
+    "type": "plugin",
+    "name": "github-branch-source",
+    "message": "Server-side request forgery",
+    "url": "https://jenkins.io/security/advisory/2018-06-04/#SECURITY-806",
+    "versions": [
+      {
+        "lastVersion": "2.3.4",
+        "pattern": "(1|2[.][012]|2[.]3[.][01234])(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-807",
+    "type": "plugin",
+    "name": "absint-astree",
+    "message": "Arbitrary file execution vulnerability",
+    "url": "https://jenkins.io/security/advisory/2018-06-04/#SECURITY-807",
+    "versions": [
+      {
+        "lastVersion": "1.0.5",
+        "pattern": "(1[.]0[.][0-6])(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-809",
+    "type": "plugin",
+    "name": "cas-plugin",
+    "message": "Server-side request forgery",
+    "url": "https://jenkins.io/security/advisory/2018-06-04/#SECURITY-809",
+    "versions": [
+      {
+        "lastVersion": "1.4.1",
+        "pattern": "([1][.][0123]|1[.]4[.][01])(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-810",
+    "type": "plugin",
+    "name": "git",
+    "message": "Server-side request forgery",
+    "url": "https://jenkins.io/security/advisory/2018-06-04/#SECURITY-810",
+    "versions": [
+      {
+        "lastVersion": "3.9.0",
+        "pattern": "([012][.].*|3[.][0-8]|3[.]9[.]0)(|[-.].*)"
+      },
+      {
+        "lastVersion": "4.0.0-beta1",
+        "pattern": "4[.]0[.]0[-]beta1"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-865",
+    "type": "plugin",
+    "name": "blackduck-hub",
+    "message": "CSRF vulnerability and lack of permission checks allows capturing credentials",
+    "url": "https://jenkins.io/security/advisory/2018-06-04/#SECURITY-865",
+    "versions": [
+      {
+        "lastVersion": "4.0.0",
+        "pattern": "([23]|4[.]0[.]0)(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-866",
+    "type": "plugin",
+    "name": "blackduck-detect",
+    "message": "CSRF vulnerability and lack of permission checks allows capturing credentials",
+    "url": "https://jenkins.io/security/advisory/2018-06-04/#SECURITY-866",
+    "versions": [
+      {
+        "lastVersion": "1.4.0",
+        "pattern": "(1[.][0123]|1[.]4[.]0)(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-883",
+    "type": "plugin",
+    "name": "kubernetes",
+    "message": "Lack of masking of secrets in build log",
+    "url": "https://jenkins.io/security/advisory/2018-06-04/#SECURITY-883",
+    "versions": [
+      {
+        "lastVersion": "1.7.0",
+        "pattern": "(0|1[.][0-6]|1[.]7[.]0)(|[-.].*)"
+      }
+    ]
+  },
+
+  {
+    "id": "SECURITY-440",
+    "type": "plugin",
+    "name": "ssh-credentials",
+    "message": "Arbitrary file read vulnerability with Credentials Binding Plugin 1.13 or newer",
+    "url": "https://jenkins.io/security/advisory/2018-06-25/#SECURITY-440",
+    "versions": [
+      {
+        "lastVersion": "1.13",
+        "pattern": "(0|1[.]([0-9]|1[0-3]))(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-808",
+    "type": "plugin",
+    "name": "openstack-cloud",
+    "message": "CSRF vulnerability and insufficient permission checks allow capturing credentials",
+    "url": "https://jenkins.io/security/advisory/2018-06-25/#SECURITY-808",
+    "versions": [
+      {
+        "lastVersion": "2.35",
+        "pattern": "(1|2[.]([0-9]|[12][0-9]|3[0-5]))(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-819",
+    "type": "plugin",
+    "name": "urltrigger",
+    "message": "Server-side request forgery vulnerability",
+    "url": "https://jenkins.io/security/advisory/2018-06-25/#SECURITY-819",
+    "versions": [
+      {
+        "lastVersion": "0.41",
+        "pattern": "(0[.]([0-9]|[123][0-9]|4[01]))(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-825",
+    "type": "plugin",
+    "name": "codedeploy",
+    "message": "Serialization of potentially sensitive build variables",
+    "url": "https://jenkins.io/security/advisory/2018-06-25/#SECURITY-825",
+    "versions": [
+      {
+        "lastVersion": "1.19",
+        "pattern": "(1[.]([0-9]|1[0-9]))(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-833",
+    "type": "plugin",
+    "name": "codedeploy",
+    "message": "AWS Secret Key stored in plain text",
+    "url": "https://jenkins.io/security/advisory/2018-06-25/#SECURITY-833",
+    "versions": [
+      {
+        "lastVersion": "1.19",
+        "pattern": "(1[.]([0-9]|1[0-9]))(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-834",
+    "type": "plugin",
+    "name": "aws-codebuild",
+    "message": "AWS Secret Key stored in plain text",
+    "url": "https://jenkins.io/security/advisory/2018-06-25/#SECURITY-834",
+    "versions": [
+      {
+        "lastVersion": "0.26",
+        "pattern": "(0[.]([0-9]|1[0-9]|2[0-6]))(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-870",
+    "type": "plugin",
+    "name": "fortify-cloudscan-jenkins-plugin",
+    "message": "Arbitrary file write vulnerability",
+    "url": "https://jenkins.io/security/advisory/2018-06-25/#SECURITY-870",
+    "versions": [
+      {
+        "lastVersion": "1.5.1",
+        "pattern": "(1[.][0-4]|1[.]5[.][01])(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-906",
+    "type": "plugin",
+    "name": "badge",
+    "message": "Persisted cross-site scripting vulnerability",
+    "url": "https://jenkins.io/security/advisory/2018-06-25/#SECURITY-906",
+    "versions": [
+      {
+        "lastVersion": "1.4",
+        "pattern": "(1[.][0-4])(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-915",
+    "type": "plugin",
+    "name": "github",
+    "message": "CSRF vulnerability and insufficient permission checks allow capturing credentials",
+    "url": "https://jenkins.io/security/advisory/2018-06-25/#SECURITY-915",
+    "versions": [
+      {
+        "lastVersion": "1.29.1",
+        "pattern": "(0|1[.][0-9]|1[.]1[0-9]|1[.]2[0-8]|1[.]29[.][01])(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-916",
+    "type": "plugin",
+    "name": "saml",
+    "message": "HTTP session fixation vulnerability",
+    "url": "https://jenkins.io/security/advisory/2018-06-25/#SECURITY-916",
+    "versions": [
+      {
+        "lastVersion": "1.0.6",
+        "pattern": "(0|1[.]0[.][0-6])(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-927",
+    "type": "plugin",
+    "name": "configuration-as-code",
+    "message": "Missing permission check allowed anyone to export Jenkins configuration",
+    "url": "https://jenkins.io/security/advisory/2018-06-25/#SECURITY-927",
+    "versions": [
+      {
+        "lastVersion": "0.7-alpha",
+        "pattern": "(0[.][0-7])(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-929",
+    "type": "plugin",
+    "name": "configuration-as-code",
+    "message": "Plain text logging of sensitive configuration variables",
+    "url": "https://jenkins.io/security/advisory/2018-06-25/#SECURITY-929",
+    "versions": [
+      {
+        "lastVersion": "0.7-alpha",
+        "pattern": "(0[.][0-7])(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-941",
+    "type": "plugin",
+    "name": "collabnet",
+    "message": "Plugin globally disables SSL/TLS certification validation in Jenkins",
+    "url": "https://jenkins.io/security/advisory/2018-06-25/#SECURITY-941",
+    "versions": [
+      {
+        "lastVersion": "2.0.4",
+        "pattern": "(1|2[.]0[.][0-4])(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-950",
+    "type": "plugin",
+    "name": "zos-connector",
+    "message": "Password stored in plain text",
+    "url": "https://jenkins.io/security/advisory/2018-06-25/#SECURITY-950",
+    "versions": [
+      {
+        "lastVersion": "1.2.6.1",
+        "pattern": "1(|[-.].*)"
+      }
+    ]
+  },
+  {
+    "id": "SECURITY-967",
+    "type": "plugin",
+    "name": "aws-codepipeline",
+    "message": "AWS Secret Key stored in plain text",
+    "url": "https://jenkins.io/security/advisory/2018-06-25/#SECURITY-967",
+    "versions": [
+      {
+        "lastVersion": "0.36",
+        "pattern": "(0[.]([0-9]|[12][0-9]|3[0-6]))(|[-.].*)"
+      }
+    ]
+  },
+]
